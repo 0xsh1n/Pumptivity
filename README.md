@@ -1,15 +1,13 @@
 # Discord-Custom-Status
 
+###
 
  <br /> 
   
  - **How to import spotify images ?** 
- - A: [How to use Spotify API](https://github.com/Mewzax/Discord-Selfbot-RPC/wiki/Spotify-API) 
+ - A: [How to use Spotify API](https://github.com/FriendlyPumpkin/Discord-Custom-Status/wiki/How-to-import-Spotify-images)
   
  <br /> 
-  
- - **How to run 24/7 ?** 
- - A: [Keep Alive your app](https://github.com/Mewzax/Discord-Selfbot-RPC/wiki/Keep-Alive) 
   
 
  ### Disclaimer 

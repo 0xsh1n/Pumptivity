@@ -26,23 +26,23 @@ client.on('ready', () => {
 
 APPID = "123456789" 
 listeningto = "Spotify"
-song = "hallo"
-artist = "hi"
-album = "hi"
-songid = '3UnfOb5hmnf4KF7NIgAj9a?si=XSKOLBmMQqiMn8Q-eaSddA'
+song = "" // song name
+artist = ""// artist name
+album = "" /album name
+songid = '3UnfOb5hmnf4KF7NIgAj9a?si=XSKOLBmMQqiMn8Q-eaSddA' //song id
 
 async function updatePresence() {
   try {
     const r = new Discord.SpotifyRPC(client)  
         .setApplicationId(APPID)
-        .setURL("https://www.youtube.com/watch?v=HTp5PH8ot6Q&list=RDGMEMHDXYb1_DDSgDsobPsOFxpA&ab_channel=NightLovell")
+        .setURL("https://www.youtube.com/watch?v=HTp5PH8ot6Q&list=RDGMEMHDXYb1_DDSgDsobPsOFxpA&ab_channel=NightLovell") //only works with yt link
         .setDetails(song)
         .setName(listeningto)
         .setState(artist)
         
         .setStartTimestamp(startTimestamp)
         .setEndTimestamp(Date.now() + 1_000 * (2 * 60 + 56)) // Song length = 2m56s
-        .setAssetsLargeImage('spotify:1124634087861268492')
+        .setAssetsLargeImage('spotify:1124634087861268492') // check the wiki for tutorial 
         .setAssetsLargeText(album)
         .setSongId(songid) 
           

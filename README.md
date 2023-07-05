@@ -8,17 +8,18 @@
   
  > :warning: **Please Read Before Using it:** Using Selfbot violates [Discord Tos](https://discord.com/terms), your account is prone to being banned by Discord,If that happens we are not responsible as a developer, because it's at your own risk. 
   
- > :memo: **Installation** 
- > - Download Zip
- > - Unzip The Files & Upload To [Replit](https://replit.com) 
- > - Customized The Files You Want (in folder statuses) 
- > - Create "TOKEN" In Secret Variable & Put Your Discord Token In The Values 
- > - Run The Projects 
-  
-  
  > ✅ **Do Not Give Your Token To Others!** Giving your token to someone else will give them the ability to log into your account without the password or 2FA. 
   
  ---
+
+### Installation:
+ - Download Zip
+ - Unzip The Files & Upload To [Replit](https://replit.com) 
+ - Customized The Files You Want (in folder statuses) 
+ - Create "TOKEN" In Secret Variable & Put Your Discord Token In The Values 
+ - Run The Projects 
+  
+<br/>
 
 ### Features:
 <br/>

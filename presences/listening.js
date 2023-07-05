@@ -28,14 +28,14 @@ APPID = "123456789"
 listeningto = "Spotify"
 song = "" // song name
 artist = ""// artist name
-album = "" /album name
+album = "" //album name
 songid = '3UnfOb5hmnf4KF7NIgAj9a?si=XSKOLBmMQqiMn8Q-eaSddA' //song id
 
 async function updatePresence() {
   try {
     const r = new Discord.SpotifyRPC(client)  
         .setApplicationId(APPID)
-        .setURL("https://www.youtube.com/watch?v=HTp5PH8ot6Q&list=RDGMEMHDXYb1_DDSgDsobPsOFxpA&ab_channel=NightLovell") //only works with yt link
+        .setURL("https://www.youtube.com/watch?v=HTp5PH8ot6Q&list=RDGMEMHDXYb1_DDSgDsobPsOFxpA&ab_channel=NightLovell") // dont change anything, the code will break ;-;
         .setDetails(song)
         .setName(listeningto)
         .setState(artist)

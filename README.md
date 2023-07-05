@@ -27,10 +27,12 @@
  - Streaming Status 
 
  <br /> 
+ -**How to get Discord account token?**
+ - A: [here](https://www.google.com/search?q=how+to+get+token+discord&oq=how+to+get+token+discord&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgcIAhAAGIAEMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDk2MDdqMGo0qAIAsAIA&client=ms-android-vivo&sourceid=chrome-mobile&ie=UTF-8)
   
  - **How to import spotify images ?** 
  - A: [How to:](https://github.com/FriendlyPumpkin/Discord-Custom-Status/wiki/How-to-import-Spotify-images)
   
  <br /> 
-  
+ 
 

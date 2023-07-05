@@ -22,8 +22,6 @@
 <br/>
 
 ### Features:
-<br/>
-  
  - Listening Status (Spotify)
  - Playing Status
  - Streaming Status 

@@ -35,7 +35,7 @@ async function updatePresence() {
   try {
     const r = new Discord.SpotifyRPC(client)  
         .setApplicationId(APPID)
-        .setURL("https://www.youtube.com/watch?v=HTp5PH8ot6Q&list=RDGMEMHDXYb1_DDSgDsobPsOFxpA&ab_channel=NightLovell") // dont change anything, the code will break ;-;
+        .setURL("https://www.youtube.com/watch?v=HTp5PH8ot6Q&list=RDGMEMHDXYb1_DDSgDsobPsOFxpA&ab_channel=NightLovell") // dont change anything here, the code will break ;-;
         .setDetails(song)
         .setName(listeningto)
         .setState(artist)

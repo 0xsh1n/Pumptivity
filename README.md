@@ -20,7 +20,8 @@
   
  ---
 
-### Features: 
+### Features:
+<br/>
   
  - Listening Status (Spotify)
  - Playing Status

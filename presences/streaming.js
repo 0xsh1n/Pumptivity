@@ -29,7 +29,7 @@ details = "" // make the name and details the same
 state = "" // state
 largeimage = "" // image link
 largeimagetext = "" //text below state
-small_image = "" //small image remove this if you dont want
+small_image = "" //small image, remove this with .setAssetSmallImage below if you dont want :)
 button_name = "button"
 button_link = "https://link.com"
 async function updatePresence() {

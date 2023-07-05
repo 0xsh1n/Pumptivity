@@ -24,20 +24,20 @@ client.on('ready', () => {
 
 
 APPID = "123456789" 
-NAME = "Github"
-details = "hallo"
-state = "hi"
-largeimage = "https://cdn.discordapp.com/attachments/806789987458220072/1125559582291411124/d6481e44f1caef01dc9318e82c2b7d03.gif" 
-largeimagetext = "hi"
-button_name = "Github"
-button_link = "https://github.com/FriendlyPumpkin"
+NAME = "" //name of the game
+details = "" //details
+state = "" // state
+largeimage = "" // large img
+largeimagetext = "hi" //you can keep this
+button_name = "button"
+button_link = "https://link.com"
 async function updatePresence() {
   try {
     
     const rpc = new Discord.RichPresence()       
         .setApplicationId(APPID)
         .setType('PLAYING')
-        .setURL("https://www.youtube.com/watch?v=HTp5PH8ot6Q&list=RDGMEMHDXYb1_DDSgDsobPsOFxpA&ab_channel=NightLovell")
+        .setURL("https://www.youtube.com/watch?v=HTp5PH8ot6Q&list=RDGMEMHDXYb1_DDSgDsobPsOFxpA&ab_channel=NightLovell") // only works with yt link
         .setDetails(details)
         .setName(NAME)
         .setState(state)

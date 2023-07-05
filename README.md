@@ -29,7 +29,7 @@
  <br /> 
   
  - **How to import spotify images ?** 
- - A: [How to use Spotify API](https://github.com/FriendlyPumpkin/Discord-Custom-Status/wiki/How-to-import-Spotify-images)
+ - A: [How to:](https://github.com/FriendlyPumpkin/Discord-Custom-Status/wiki/How-to-import-Spotify-images)
   
  <br /> 
   

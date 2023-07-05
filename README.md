@@ -6,7 +6,7 @@
  </p> 
 
   
- > :warning: **Please Read Before Using it:** Once again, using Selfbot violates [Discord Tos](https://discord.com/terms), your account is prone to being banned by Discord,If that happens we are not responsible as a developer, because it's at your own risk. 
+ > :warning: **Please Read Before Using it:** Using Selfbot violates [Discord Tos](https://discord.com/terms), your account is prone to being banned by Discord,If that happens we are not responsible as a developer, because it's at your own risk. 
   
  > :memo: **Installation** 
  > - Download Zip
@@ -34,7 +34,3 @@
  <br /> 
   
 
- ### Disclaimer 
- ``` 
- Using a selfbot is against TOS and can get your account banned. Use it at your own risks. 
- ```

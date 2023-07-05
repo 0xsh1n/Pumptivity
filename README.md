@@ -1,6 +1,10 @@
 # Discord-Custom-Status
 
-###
+### Features: 
+  
+ - Listening Status (Spotify)
+ - Playing Status
+ - Streaming Status 
 
  <br /> 
   

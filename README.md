@@ -14,10 +14,10 @@
 
 ### Installation:
  - Download Zip
- - Unzip The Files & Upload To [Replit](https://replit.com) 
- - Customized The Files You Want (in folder statuses) 
+ - Import to [Replit](https://replit.com) 
+ - Customize The Files You Want (in folder presences) 
  - Create "TOKEN" In Secret Variable & Put Your Discord Token In The Values 
- - Run The Projects   
+ - Run The Project
 <br/>
 
 ### Features:

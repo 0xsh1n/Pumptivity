@@ -19,6 +19,7 @@
  - Create "TOKEN" In Secret Variable & Put Your Discord Token In The Values 
  - Run The Projects   
 <br/>
+
 ### Features:
  - Listening Status (Spotify)
  - Playing Status

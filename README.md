@@ -6,11 +6,14 @@
  </p> 
 
   
- > :warning: **Please Read Before Using it:** Using Selfbot violates [Discord Tos](https://discord.com/terms), your account is prone to being banned by Discord,If that happens we are not responsible as a developer, because it's at your own risk. 
+ ## Disclaimer 
   
- > ✅ **Do Not Give Your Token To Others!** Giving your token to someone else will give them the ability to log into your account without the password or 2FA. 
-  
- ---
+ |SelfBot was made for Educational purposes| 
+ |-------------------------------------------------| 
+ This project was created only for good purposes and personal use. 
+ By using this SelfBot, you agree that you hold responsibility and accountability of any consequences caused by your actions. 
+ 
+ 
 
 ### Installation:
  - Download Zip

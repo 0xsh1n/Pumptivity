@@ -17,10 +17,8 @@
  - Unzip The Files & Upload To [Replit](https://replit.com) 
  - Customized The Files You Want (in folder statuses) 
  - Create "TOKEN" In Secret Variable & Put Your Discord Token In The Values 
- - Run The Projects 
-  
+ - Run The Projects   
 <br/>
-
 ### Features:
  - Listening Status (Spotify)
  - Playing Status

@@ -27,7 +27,6 @@
  - Listening Status (Spotify)
  - Playing Status
  - Streaming Status 
-
  <br /> 
 
  - **How to get Discord account token?**

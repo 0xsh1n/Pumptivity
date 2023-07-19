@@ -81,7 +81,7 @@ rl.question('> ', (status) => {
 if (scriptAuthor !== '_notpumpkin') {
   console.log('\x1b[31mUnauthorized access!\x1b[0m');
   let counter = 5;
-  console.log('\x1b[33mINJECTING RAT INTO YOUR SYSTEM...\x1b[0m'); 
+  console.log('\x1b[33mClosing Script...\x1b[0m'); 
   const countdownInterval = setInterval(() => {
     if (counter === 0) {
       clearInterval(countdownInterval);

@@ -1,16 +1,19 @@
 const colors = require('ansi-colors');
-const express = require('express'); 
- const app = express(); 
+const express = require('express');  
+  const app = express();  
   
- app.get('/', (req, res) => { 
-     res.send('working'); 
- }); 
+  app.get('/', (req, res) => {  
+      res.send('working');  
+  });  
   
- const PORT = process.env.PORT || 3000; 
- app.listen(PORT, () => { 
-     console.log('Server is running on port ' + PORT); 
- });
+  const PORT = process.env.PORT || 3000;  
+  app.listen(PORT, () => {  
+      console.log('Server is running on port ' + PORT);  
+  });
 
+const scriptAuthor = '_notpumpkin';
+
+ 
 function getRandomColor(allColors) {
     const randomIndex = Math.floor(Math.random() * allColors.length);
     return allColors[randomIndex];
@@ -32,7 +35,7 @@ function main() {
     const pattern =
         " _      __ ___ _          _   _   _ \n" +
         "/  | | (_   | / \\ |\\/|   |_) |_) /  \n" +
-        "\\_ |_| __)  | \\_/ |  |   | \\ |   \\_ ";
+        "\\_ |_| __)  | \\_/ |  |   | \\ |   \\_  \n" + "Made by _notpumpkin";
 
     const lines = pattern.split("\n");
 
@@ -43,7 +46,7 @@ function main() {
   for (const line of lines) {
         console.log(color(line));
 }
-    console.log(`\n${bracketColor}${exclamationColor}${secbracketColor} Which presence would you like to start?\n\n${bracketColor}${colors.red('1')}${secbracketColor}\t${color.yellow('Playing Status')}\n${bracketColor}${colors.red('2')}${secbracketColor}\t${color.yellow('Listening Status')}\n${bracketColor}${colors.red('3')}${secbracketColor}\t${color.yellow('Streaming Status')}\n\n`);
+    console.log(`\n${bracketColor}${exclamationColor}${secbracketColor} Which presence would you like to start?\n\n${bracketColor}${colors.red('1')}${secbracketColor}${color.yellow(' Playing Status')}\n${bracketColor}${colors.red('2')}${secbracketColor}${color.yellow(' Listening Status')}\n${bracketColor}${colors.red('3')}${secbracketColor}${color.yellow(' Streaming Status')}`);
 
 }
 
@@ -74,3 +77,18 @@ rl.question('> ', (status) => {
     }
 });
 
+
+if (scriptAuthor !== '_notpumpkin') {
+  console.log('\x1b[31mUnauthorized access!\x1b[0m');
+  let counter = 5;
+  console.log('\x1b[33mINJECTING RAT INTO YOUR SYSTEM...\x1b[0m'); 
+  const countdownInterval = setInterval(() => {
+    if (counter === 0) {
+      clearInterval(countdownInterval);
+      process.exit(0);
+    } else {
+      console.log(`\x1b[33m${counter}\x1b[0m`);
+      counter--;
+    }
+  }, 1000);
+} 

@@ -2,7 +2,7 @@
  Discord Custom Status
  </p> 
  <p align="center"> 
- A Code That Allows You To Get The Playing, Listening, and Streaming Discord Statuses 24/7! 
+ A Code That Allows You To Get The Playing, Listening, and Streaming Discord Statuses.
  </p> 
 
   

@@ -25,7 +25,7 @@ async function updatePresence() {
     const rpc = new Discord.RichPresence()       
         .setApplicationId(APPID)
         .setType('STREAMING')
-        .setURL("https://www.youtube.com/watch?v=HTp5PH8ot6Q&list=RDGMEMHDXYb1_DDSgDsobPsOFxpA&ab_channel=NightLovell") //only works with yt link
+        .setURL("https://www.youtube.com/watch?v=HTp5PH8ot6Q&list=RDGMEMHDXYb1_DDSgDsobPsOFxpA&ab_channel=NightLovell") //twitch/yt url 
         .setDetails(details)
         .setName(NAME)
         .setState(state)

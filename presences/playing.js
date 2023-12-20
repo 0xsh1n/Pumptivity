@@ -1,4 +1,3 @@
-require('dotenv').config();
 
 const Discord = require('discord.js-selfbot-v13');
 const client = new Discord.Client({
@@ -26,7 +25,7 @@ async function updatePresence() {
     const rpc = new Discord.RichPresence()       
         .setApplicationId(APPID)
         .setType('PLAYING')
-        .setURL("https://www.youtube.com/watch?v=HTp5PH8ot6Q&list=RDGMEMHDXYb1_DDSgDsobPsOFxpA&ab_channel=NightLovell") // only works with yt link
+        .setURL("https://www.youtube.com/watch?v=HTp5PH8ot6Q&list=RDGMEMHDXYb1_DDSgDsobPsOFxpA&ab_channel=NightLovell") // twitch/yt url
         .setDetails(details)
         .setName(NAME)
         .setState(state)

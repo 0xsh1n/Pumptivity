@@ -16,11 +16,9 @@
  
 
 ### Installation:
- - Download Zip
- - Import to [Replit](https://replit.com) 
- - Customize The Files You Want (in folder presences) 
- - Create "TOKEN" In Secret Variable & Put Your Discord Token In The Values 
- - Run The Project
+ - Choose the presence you want in the presences folder and copy and paste it your replit repo
+ - Create a secret and put "TOKEN" as secret key & your token as value
+ - Run the project
 <br/>
 
 ### Features:
